@@ -25,7 +25,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           add_git_labels: true
 #          target: ${{ matrix.target }}
-          repository: tuxroy/ngnix:2
+          push: true
+          tags: tuxroy/ngnix:2
 #          tags: ${{ matrix.tag }}
 #          build_args: IMAGE=${{ matrix.base }}
           
