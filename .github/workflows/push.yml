@@ -26,7 +26,6 @@ jobs:
           add_git_labels: true
 #          target: ${{ matrix.target }}
           push: true
-          tags: tuxroy/ngnix:2
 #          tags: ${{ matrix.tag }}
 #          build_args: IMAGE=${{ matrix.base }}
           
