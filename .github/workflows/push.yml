@@ -26,6 +26,9 @@ jobs:
           add_git_labels: true
 #          target: ${{ matrix.target }}
           push: true
+          tag_with_ref: true
+          tag_with_sha: true
+          tags: ${{ github.sha }}
 #          tags: ${{ matrix.tag }}
 #          build_args: IMAGE=${{ matrix.base }}
           
